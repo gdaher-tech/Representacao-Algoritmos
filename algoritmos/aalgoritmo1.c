@@ -1,22 +1,27 @@
 #include <stdio.h>
 
-float valorReais, cotaDolar;
+float reais_value, quota_dolar; 
 
-float calculo(float valorReais, float cotaDolar);
-
-int main() {
-    printf("Insira o Valor em R$ que deseja converter: "); 
-    scanf("%f", &valorReais); 
-
-    printf("Insira a cotação do Dólar: "); 
-    scanf("%f", &cotaDolar);
-
-    printf("Resultado da conversão: %.2f\n", calculo(valorReais, cotaDolar));
-    printf("Processo de cálculo: %.2f / %.2f = %.2f\n", valorReais, cotaDolar, calculo(valorReais, cotaDolar));
-
-    return 0; 
+float conversion(float reais_value, float quota_dolar){
+  return(reais_value / quota_dolar);
 }
 
-float calculo(float valorReais, float cotaDolar) {
-    return valorReais / cotaDolar;
+
+
+int main(){
+
+  printf("Digite o valor em Reais (R$) que deseja converter \n");
+  printf("Enter the amount in Reais (R$) you want to convert \n "); 
+  scanf("%f", &reais_value);
+
+  printf("Digite o valor da cotação do Dólar \n");
+  printf("Enter the Dollar quote value \n ");
+  scanf("%f", &quota_dolar); 
+
+  printf("O valor da conversão é: %.2f\n", conversion(reais_value, quota_dolar));
+
+
+  return 0; 
+
+
 }
