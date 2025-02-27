@@ -1,4 +1,4 @@
-```
+```python
 int aprovados 
 int reprovados 
 float valorParcela 
@@ -43,4 +43,4 @@ loop de i < 10:
                 reprovado + 1 
 
         
-```
+```python

@@ -1,4 +1,4 @@
-````
+```python
 float salario_funcionario 
 
 calculo = salario_funcionario * 0,20
@@ -15,4 +15,4 @@ se nao
 
     FIM 
 
-````
+```python

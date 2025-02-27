@@ -1,4 +1,4 @@
-``` 
+```python 
 int cachorro_quente 
 int hamburguer 
 int bauru_com_ovo 
@@ -87,4 +87,4 @@ loop (enquanto o usuário não encerra os pedidos):
 
 
 
-```
+```python

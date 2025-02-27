@@ -1,4 +1,4 @@
-````
+```python
 float valor_reais 
 float cotacao_dolar 
 
@@ -14,4 +14,4 @@ se nao
 
     FIM 
 
-````
+```python

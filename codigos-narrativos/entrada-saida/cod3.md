@@ -1,4 +1,4 @@
-``
+```python
 float ap1, ap2, ap3, np, av1, ap1_2, ap2_2, ap3_2, np_2, av2, a1, a2, nf
 
 loop (verdadeiro)
@@ -70,4 +70,4 @@ se nf >= 0 e nf <= 10
 senao
     imprima("Erro: Nota final inválida.")
 
-``
+```python
